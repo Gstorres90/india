@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Artifika');
+
+
+
+/* Stylesheet for India Site */
+
+/*
+
+.image
+    margin: 95%;
+    width: 84%;
+    
+} */
+/*-- the body has a unique color code--*/
+body {
+    font-family:'Artifika', serif;
+    background-color: #2E0502;
+    /*background-color: #E44424;*/
+    background: rgba(228, 68, 36, 0.8);
+    
+     }
+    
+      
+.content {
+    display: flex;
+    text-align:justify ;
+}
+/*-- this is affecting our headlines--*/
+
+h1 {
+    font-family: 'Artifika', serif;
+    display:block;
+    margin:auto;
+    text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+/*-- we want to make the lists as formal as possible--*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+/*-- we want the background image to be a picture about India's culture--*/
+.india {
+         background-image:url("../images/india.jpg");
+         height: 100vh;
+         background-repeat:no-repeat;
+         background-size:cover;
+    
+}
+
+.center-img{ 
+    display:block;
+    margin:auto;
+}
